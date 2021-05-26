@@ -1,0 +1,16 @@
+<div *ngIf="camera">
+  <h2 *ngIf="camera.id">Editing #{{camera.id}} <i>{{camera.name}}</i></h2>
+  <h2 *ngIf="!camera.id">Adding new Camera</h2>
+  <div>
+    <label for="name">Name:</label>
+    <input type="text" id="name" [(ngModel)]="camera.name">
+  </div>
+  <div>
+    <label for="model">Model:</label>
+    <input type="model" id="model" [(ngModel)]="camera.model">
+  </div>
+  <div>
+    <button (click)="goBack()" class="button">Cancel</button>
+    <button (click)="save()" class="button button-green">Save</button>
+  </div>
+</div>
