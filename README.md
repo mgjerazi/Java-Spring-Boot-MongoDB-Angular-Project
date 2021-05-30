@@ -11,5 +11,4 @@ Also in order to interact with this API you also build the front part in Angular
 Required technologies:
 
 FrontEnd: Angular
-
 BackEnd: Spring Boot
