@@ -2,23 +2,25 @@
 
 Camera-Management-System
 
-Using MongoDB as database and Spring Boot as the framework to create the backend,
-will create a simple API to display information on the cameras located in the database.
-You can add new cameras, remove, modify and display cameras based on specifications using this API.
-The cameras will have an Id, a name, a model, a resolution and an IP.
-Also in order to interact with this API you also build the front part in Angular.
+- Technologies
 
-Required technologies:
 
-- Front-End
+MongoDB 
 
 AngularJS
 
-- Back-End
+Spring Boot 
 
-Spring Boot
 
-MondoDB
+This project is about a simple API to display information on the cameras located in the database.
+
+You can create new cameras, remove, add, modify and display cameras based on specifications using this API.
+
+The cameras will have an Id, a name, a model, a resolution and an IP.
+
+Also in order to interact with this API I build the front-end in Angular.
+
+
 
 - AngularJS, Spring Boot, MongoDB Full-Stack CRUD Application Screenshots Below
 
@@ -42,10 +44,10 @@ JSON from Back-End
 
 ![AngularJSON](https://user-images.githubusercontent.com/74839767/129048869-a91b8a14-e9f1-4627-9cee-277e73008023.PNG)
 
-AngularJS
+AngularJS Routes
 
 ![angular](https://user-images.githubusercontent.com/74839767/129048892-104c7da0-69d1-4467-9211-c933cc7f6626.PNG)
 
-SpringBoot
+SpringBoot Configuration
 
 ![SpringBoot](https://user-images.githubusercontent.com/74839767/129049573-03295230-e578-46d4-a929-005ddce89eed.PNG)
