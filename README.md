@@ -10,6 +10,12 @@ Also in order to interact with this API you also build the front part in Angular
 
 Required technologies:
 
-FrontEnd: Angular
+- Front-End
 
-BackEnd: Spring Boot
+AngularJS
+
+- Back-End
+
+Spring Boot
+
+MondoDB
