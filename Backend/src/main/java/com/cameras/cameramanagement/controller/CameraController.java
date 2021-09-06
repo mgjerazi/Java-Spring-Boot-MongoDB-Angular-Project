@@ -62,13 +62,13 @@ public class CameraController {
         return ResponseEntity.noContent().build();
     }
 
-    @GetMapping("/{ip}")
+    @GetMapping("/ip/{ip}")
     public List<Camera> getByIP(@PathVariable("ip") String ip) {
         List<Camera> cameras = this.cameraRepository.findByIP(ip);
         return cameras;
     }
 
-    @GetMapping("/{resolutionPixel}")
+    @GetMapping("/resolutionPixel/{resolutionPixel}")
     public List<Camera> getByResolutionPixel(@PathVariable("resolutionPixel") int resolutionPixel) {
         List<Camera> cameras = this.cameraRepository.findResolution(resolutionPixel);
         return cameras;

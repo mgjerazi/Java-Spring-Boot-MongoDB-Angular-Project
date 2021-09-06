@@ -1,8 +1,12 @@
 <app-loader *ngIf="loading"></app-loader>
+
 <div *ngIf="!loading" class="cameras-container">
+
   <app-add-item (click)="addCamera()" class="add-item"></app-add-item>
+
   <app-camera-item class="camera" *ngFor="let cameraItem of cameras"
                  [camera]="cameraItem"
                  (cameraItemDelete)="deleteItem($event)">
   </app-camera-item>
+
 </div>

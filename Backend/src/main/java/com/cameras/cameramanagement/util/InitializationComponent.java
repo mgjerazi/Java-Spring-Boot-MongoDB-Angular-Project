@@ -18,7 +18,7 @@ public class InitializationComponent {
 
 
     @PostConstruct
-    private void init() {
+    private void start() {
 
         cameraRepository.deleteAll();
 
